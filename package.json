@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-read-file-benchmark-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "ssh://git@github.com/shisama/nodejs-read-file-benchmark-test.git",
+  "author": "shisama <shisama07@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "setup": "node write_csv.js",
+    "bench": "node index.js"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "chalk": "^4.1.0"
+  }
+}
