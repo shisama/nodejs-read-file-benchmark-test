@@ -1,4 +1,4 @@
-This repository is to compare perfomances between the fs.readFile function and the ReadableStream.
+This repository is to compare performances between the fs.readFile function and the ReadableStream.
 
 ## Setup
 
